@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: grey;
+    font-size: 21px;
+}
+
+header p {
+    font-weight: bold;
+}
+
+h2 ~ p {
+    background-color: blueviolet;
+}
+
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+td, 
+th {
+    border: 1px solid #000; 
+    padding: 10px;
+}
+
+ol li {
+    list-style-type: lower-alpha;
+}
